@@ -8,6 +8,7 @@ print("""[1] pip\n[2] pip3\nWhich one do you use?""")
 rn = input(">>>")
 if rn == '1':
     os.system("pip install speedtest-cli")
+    os.system("pip install undetected_chromedriver")
     os.system("pip install PySocks")
     os.system("pip install cfscrape")
     os.system("pip install datetime")
